@@ -1,0 +1,275 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    padding: 5px;
+    border-radius:70px ;
+    width: 95%;
+    left : 50%;
+    transform: translateX(-50%);
+    margin-top: 7px; 
+}
+nav img {
+    height: 40px;
+    margin-right: 20px;
+}
+nav h1 {
+    color: black;
+    font-size: 25px;
+    margin: 5px;
+    padding: 2px;
+}
+nav button {
+    background-color: inherit;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.button{
+        display:flex;
+        gap: 20px;
+
+}
+.logos {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin :0 auto;
+
+}
+
+
+header {
+    /* background-image:url("images/slid2.png"); */
+
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+}
+.contant {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #faedcd;
+    width: 25%;
+    height: 400px;
+    margin: 50px 60px;
+    padding: 20px;
+    display :inline-block;
+}
+
+main div img {
+    width: 400px;
+    height: 200px;
+    object-fit: cover;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    margin-left: -10px;
+}
+header video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+a {
+    text-decoration: none;
+}
+/* ===== FOOTER ===== */
+    footer {
+      background: #0a0a0a;
+      color: #fff;
+      padding: 48px 40px 24px;
+    }
+ 
+    .footer-top {
+      display: grid;
+      grid-template-columns: 1.4fr 1fr 1fr;
+      gap: 40px;
+      padding-bottom: 36px;
+      border-bottom: 0.5px solid #2a2a2a;
+    }
+ 
+    /* --- Brand Column --- */
+    .brand-name {
+      font-size: 22px;
+      font-weight: 500;
+      letter-spacing: 2px;
+      color: #fff;
+      margin-bottom: 6px;
+    }
+ 
+    .brand-tagline {
+      font-size: 12px;
+      color: #666;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      margin-bottom: 20px;
+    }
+ 
+    .social-row {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+ 
+    .social-btn {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      background: #161616;
+      border: 0.5px solid #2a2a2a;
+      border-radius: 6px;
+      padding: 7px 11px;
+      color: #ccc;
+      font-size: 12px;
+      text-decoration: none;
+      transition: border-color 0.2s, color 0.2s;
+    }
+ 
+    .social-btn:hover {
+      border-color: #555;
+      color: #fff;
+    }
+ 
+    .social-btn svg {
+      width: 14px;
+      height: 14px;
+      fill: currentColor;
+    }
+ 
+    /* --- Nav Column --- */
+    .col-title {
+      font-size: 11px;
+      font-weight: 500;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: #555;
+      margin-bottom: 16px;
+    }
+ 
+    .nav-links {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+ 
+    .nav-links a {
+      color: #aaa;
+      text-decoration: none;
+      font-size: 14px;
+      transition: color 0.2s;
+    }
+ 
+    .nav-links a:hover {
+      color: #fff;
+    }
+ 
+    /* --- Series Column --- */
+    .series-grid {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+ 
+    .series-label {
+      font-size: 11px;
+      color: #555;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      margin-bottom: 4px;
+    }
+ 
+    .badge-row {
+      display: flex;
+      gap: 6px;
+      flex-wrap: wrap;
+    }
+ 
+    .badge {
+      background: #161616;
+      border: 0.5px solid #2a2a2a;
+      border-radius: 5px;
+      padding: 5px 12px;
+      font-size: 12px;
+      font-weight: 500;
+      color: #ccc;
+      text-decoration: none;
+      transition: background 0.2s, border-color 0.2s, color 0.2s;
+    }
+ 
+    .badge:hover {
+      background: #1d1d1d;
+      border-color: #444;
+      color: #fff;
+    }
+ 
+    /* M Series */
+    .badge.m { border-color: #3a3a4a; color: #8888cc; }
+    .badge.m:hover { background: #1a1a2e; border-color: #5555aa; color: #aaaaee; }
+ 
+    /* X Series */
+    .badge.x { border-color: #3a4a3a; color: #88bb88; }
+    .badge.x:hover { background: #1a2e1a; border-color: #55aa55; color: #aaeaaa; }
+ 
+    /* i Series */
+    .badge.i { border-color: #4a4a3a; color: #cccc88; }
+    .badge.i:hover { background: #2e2e1a; border-color: #aaaa55; color: #eeeaaa; }
+ 
+    /* --- Footer Bottom --- */
+    .footer-bottom {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding-top: 24px;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+ 
+    .copyright {
+      font-size: 12px;
+      color: #444;
+    }
+ 
+    .legal-links {
+      display: flex;
+      gap: 16px;
+    }
+ 
+    .legal-links a {
+      font-size: 12px;
+      color: #444;
+      text-decoration: none;
+    }
+ 
+    .legal-links a:hover {
+      color: #888;
+    }
+ 
+    /* ===== RESPONSIVE ===== */
+    @media (max-width: 768px) {
+      footer {
+        padding: 36px 20px 20px;
+      }
+ 
+      .footer-top {
+        grid-template-columns: 1fr;
+        gap: 32px;
+      }
+    }
