@@ -102,6 +102,7 @@ a {
       grid-template-columns: 1.4fr 1fr 1fr;
       gap: 40px;
       padding-bottom: 36px;
+      align-items: flex-start;
       border-bottom: 0.5px solid #2a2a2a;
     }
  
