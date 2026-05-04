@@ -1,0 +1,243 @@
+.dark-theme{
+    background: #18191a;
+    transition: background-color 0.4s ease,color 0.4s ease;
+/*theme button*/
+button.theme{
+    color: white;
+    background-color:#007bb0 ;
+    border-radius: 8px;
+}
+
+/*grid dark theme and list layout*/
+.main-grid{
+    gap: 30px;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+.grid {
+  display:flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.cars{
+    display: flex;
+    border-radius: 8px;
+    padding: 20px;
+    background: #242526;
+}
+.sidebar{
+    background: #242526;
+    transition: background-color 0.4s ease,color 0.4s ease;
+}
+.card{
+    display: flex;
+    flex-direction: row;
+    background: white;
+    color: black;
+    height: 200px;
+    align-items: center;
+    padding-right: 220px;
+    width: 100%;
+    padding-right: 550px;
+    border-radius: 12px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    position: relative;
+    transition: background-color 0.4s ease,color 0.4s ease;
+}
+.card img{
+    width: 300px;
+    height: 100%;
+    object-fit: cover;
+}
+.title{
+    position: static;
+    background: transparent;
+    color: #000;
+    text-align: left;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.size{
+    font-size: 20px;
+}
+.search{
+    background: #007bb0;
+    transition: background-color 0.4s ease,color 0.4s ease;
+}
+.favorite{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: black;
+    color: white;
+}
+.filter-header{
+    background: #007bb0;
+    transition: background-color 0.4s ease,color 0.4s ease;
+}
+.type.active{
+    background: #007bb0;
+    transition: background-color 0.4s ease,color 0.4s ease;
+}
+
+/*car-information dark-theme*/
+.info{
+    background:#242526;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+}
+.car-data{
+    color:  #e4e6eb;
+}
+.car-data-price{
+    color: #007bb0;
+}
+.info button{
+    background: #007bb0;
+}
+.info button:last-child{
+    background: #e4e6eb;
+    color: #18191a;
+}
+.info button a{
+    color: white;
+}
+.info button:hover{
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+}
+.info button:active{
+    transform: translateY(0);
+}
+.info button:last-child{
+    background: #4e4f45;
+}
+.media-header{
+  text-align: start;
+  color: #007bb0;
+}
+
+
+/*gallery of images*/
+.package{
+  display: grid;
+  grid-template-columns: repeat(2,auto);
+  gap:10px;
+}
+.gallery{
+  display: grid;  
+  max-width: 700px;
+  height: 400px;
+  grid-template-columns: 1fr 100px;
+  margin: auto;
+  align-items: stretch;
+}
+.main{
+  position: relative;
+  width: 100%;
+  height: 400px;
+  background: #f9f9f9;
+  border-radius: 12px;
+  overflow: hidden;
+}
+.main img{
+  width: 100%;
+  height: 100%;
+  display: block;
+  border-radius: 12px;
+  object-fit: cover;
+  transition: 0.3s;
+}
+.thumb{
+  display: flex;
+  gap:10px;
+  flex-direction: column;
+  margin-left: 15px;
+  padding-right: 120px;
+  max-height: 400px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.product{
+  width: 90px;
+  height: 90px;
+  flex-shrink: 0;
+  object-fit:cover;
+  cursor: pointer;
+  border: 2px solid transparent;
+  border-radius: 4px;
+  transition: 0.3s;
+}
+.product:hover, .product.active{
+  border-color: #007bff;
+}
+
+/*table dark-theme*/
+.paragraph{
+  background: #242526;
+  border-left:4px solid #007bb0;
+  color: white;
+}
+h3.Description{
+    color: #40a9ff;
+}
+table thead tr.head,table tfoot tr.head{
+    background:#007bb0;
+    color: white;
+}
+tr:nth-child(even){
+  background: #242526;
+  border-bottom: 1px solid rgba(255,255,255,0.05);
+}
+
+tr:nth-child(odd){
+  background: #1c1d1e;
+  border-bottom: 1px solid rgba(255,255,255,0.05);
+}
+h2{
+    color: #40a9ff;
+}
+table{
+    color: #e4e6eb;
+}
+tr:hover {
+  filter: brightness(1.2); 
+  transition: 0.3s;
+}
+
+table thead tr.head:hover,table tfoot tr.head:hover {
+  filter: brightness(0.9);
+  transition: 0.3s;
+}
+
+/*form theme*/
+form button{
+    background: #007bb0;
+    color: white;
+    
+}
+.form-title{
+    color: black;
+}
+button.theme{
+    background: #007bb0;
+    border-radius: 25px;
+}
+.video h3{
+    background: none;
+    color: #007bb0;
+    text-align: start;
+}
+.audio h3{
+  background: none;
+  color: #007bb0;
+  text-align: start;
+}
+.form{
+    background-image: url("../photos/Drive test background/dark mode background.jpg");
+    background-size: cover;
+    transition: background 0.4s ease,color 0.4s ease;
+}
+}
+
