@@ -152,6 +152,10 @@ a {
       height: 14px;
       fill: currentColor;
     }
+
+    header-location{
+      text-align: start;
+    }
  
     /* --- Nav Column --- */
     .col-title {
