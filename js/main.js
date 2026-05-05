@@ -39,5 +39,11 @@ $("#loginForm").submit(function(e){
 });
 
 
-
+document.getElementById('save-info').addEventListener('click',function(){
+    const name=document.getElementById('username').value;
+    const password=document.getElementById('password').value;
+    localStorage.setItem('username',name);
+    localStorage.setItem('password',password);
+    document.getElementById('user').textContent='Welcome,$(name)!';
+})
 
