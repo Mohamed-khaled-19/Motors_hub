@@ -5,7 +5,6 @@
 button.theme{
     color: white;
     background-color:#007bb0 ;
-    border-radius: 8px;
 }
 
 /*grid dark theme and list layout*/
@@ -214,8 +213,7 @@ table thead tr.head:hover,table tfoot tr.head:hover {
 /*form theme*/
 form button{
     background: #007bb0;
-    color: white;
-    
+    color: white;    
 }
 .form-title{
     color: black;

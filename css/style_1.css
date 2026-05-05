@@ -539,6 +539,7 @@ footer {
   display: grid;
   grid-template-columns: 1.4fr 1fr 1fr;
   gap: 40px;
+  align-items: flex-start;
   padding-bottom: 36px;
   border-bottom: 0.5px solid #2a2a2a;
 }
@@ -569,6 +570,7 @@ footer {
 .social-btn {
   display: flex;
   align-items: center;
+  height: auto;
   gap: 6px;
   background: #161616;
   border: 0.5px solid #2a2a2a;
@@ -589,6 +591,10 @@ footer {
   width: 14px;
   height: 14px;
   fill: currentColor;
+}
+
+.header-location{
+  text-align: start;
 }
 
 /* --- Nav Column --- */
